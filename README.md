@@ -21,4 +21,5 @@ voila si vous avez compris ça et que vous savez faire:
 - aggreagation (utiliser fetch & axios)
 
 vous pouvoir refaire ou créer n'importe quoi en front
+
 le plus compliqué reste d'être pixel perfect
