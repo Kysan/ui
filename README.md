@@ -1,25 +1,66 @@
 # kysan-ui
 
-J'expliquerai ça un autre jour
+## Installation
+
+Run
+
+```
+npm i kysan-ui
+```
+
+Install the TailwindCSS VSCode
+https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+
+Go to settings:
+search -> "tailwind class attributes"
+and then add "s" after "className" "class" and "ngClass"
+
+that all :)
+
+## Explication
 
 résumé:
-je fais mes UI à base de
-column et de row
+je fais mes UI 10x plus vite que vous grace à une méthode que j'ai inventé
 
-sachant que chaque Row ou Column
-à un width soit "full" soit "fixed"
+pour résumé je fais du RowColumnFixedFull
+
+TUTO YTB ICI
 
 une fois que t'as compris ça tu peux refaire le layout de discord en 30 secondes
 (je ferai un video ytb)
 
 tout ce qu'il reste ensuite c'est les padding/margin, la typographie et enfin les icons
 
-voila si vous avez compris ça et que vous savez faire:
+voila tout il ne vous reste plus qu'a apprendre
 
-- conditionnal rendering (react-router et {xIsTrue && component } basiquement)
-- state management (utiliser un outil du style Redux, Jotail, Atom ou mon favoris Zustand)
-- aggreagation (utiliser fetch & axios)
+- routing (react-router)
+- state management (Zustand/Redux)
+- aggreagation (Axios/Fetch)
 
-vous pouvoir refaire ou créer n'importe quoi en front
+bien entendu avec le temps je vais rajouter d'
 
-le plus compliqué reste d'être pixel perfect
+note: je pense que Column et Row sont plus parlant que "VerticalBox" et "HorizontalBox"
+
+## Exemple
+
+```tsx
+const Cart = () => {
+  // ...
+
+  return (
+    <Column s="h-full gap-2 items-center overflow-auto">
+      <Heading s="text-4xl font-minecraft font-black mb-4">Your Cart</Heading>
+      <CartProducts />
+      <CartActionButtons />
+    </Column>
+  );
+};
+```
+
+## Todo
+
+- video ytb
+- doc plus détaillé
+- doc en anglais
+- exemple
+- changer le nom de la lib en `flexy` ou `@kysan/ui`
