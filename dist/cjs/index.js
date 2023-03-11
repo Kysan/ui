@@ -11,7 +11,7 @@ var __createBinding = (this && this.__createBinding) || (Object.create ? (functi
     o[k2] = m[k];
 }));
 exports.__esModule = true;
-exports.Text = exports.Heading = exports.TextArea = exports.Input = exports.Section = exports.Row = exports.Flex = exports.Column = void 0;
+exports.Span = exports.Text = exports.Heading = exports.Button = exports.TextArea = exports.Input = exports.Section = exports.Row = exports.Flex = exports.Column = void 0;
 var FlexBox_1 = require("./compo/FlexBox");
 __createBinding(exports, FlexBox_1, "Column");
 __createBinding(exports, FlexBox_1, "Flex");
@@ -20,7 +20,10 @@ __createBinding(exports, FlexBox_1, "Section");
 var Input_1 = require("./compo/Input");
 __createBinding(exports, Input_1, "Input");
 __createBinding(exports, Input_1, "TextArea");
+var Button_1 = require("./compo/Button");
+__createBinding(exports, Button_1, "Button");
 var Text_1 = require("./compo/Text");
 __createBinding(exports, Text_1, "Heading");
 __createBinding(exports, Text_1, "Text");
+__createBinding(exports, Text_1, "Span");
 //# sourceMappingURL=index.js.map

@@ -1,4 +1,5 @@
 export { Column, Flex, Row, Section } from "./compo/FlexBox";
 export { Input, TextArea } from "./compo/Input";
-export { Heading, Text } from "./compo/Text";
+export { Button } from "./compo/Button";
+export { Heading, Text, Span } from "./compo/Text";
 //# sourceMappingURL=index.js.map
