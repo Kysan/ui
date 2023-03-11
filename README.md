@@ -37,7 +37,12 @@ voila tout il ne vous reste plus qu'a apprendre
 - state management (Zustand/Redux)
 - aggreagation (Axios/Fetch)
 
-bien entendu avec le temps je vais rajouter d'
+voila ceci n'est que la base de mon futur toolkit
+
+"@leet/ui"
+"@leet/state"
+"@leet/routing"
+"@leet/api"
 
 note: je pense que Column et Row sont plus parlant que "VerticalBox" et "HorizontalBox"
 
